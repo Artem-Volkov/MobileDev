@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="wrap_content"
+        android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/text_margin"
+    android:text="@string/large_text1"></TextView>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/turkish"
+        android:visibility="visible"
+        app:srcCompat="@drawable/turkish"
+        tools:visibility="visible"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text2"></TextView>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ferm"
+        android:visibility="visible"
+        app:srcCompat="@drawable/ferm"
+        tools:visibility="visible"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text3"></TextView>
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rosamtom"
+        android:visibility="visible"
+        app:srcCompat="@drawable/rosamtom"
+        tools:visibility="visible"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text4"></TextView>
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vote"
+        android:visibility="visible"
+        app:srcCompat="@drawable/vote"
+        tools:visibility="visible"></ImageView>
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
