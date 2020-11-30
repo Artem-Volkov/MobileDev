@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/fon"
+    android:backgroundTint="#000000"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/worldskills_bank"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#F8F7F7"
+        android:gravity="center"
+        android:text="Отделения и банкоматы"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:iconTint="#FFFFFF"
+        app:rippleColor="#000000"
+        android:onClick="Click"/>
+
+    <ImageView
+        android:id="@+id/geo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="TODO"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/otdeleniabankomat" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+        android:background="#FFFFFF"
+        android:drawableTint="#00FFFFFF"
+        android:gravity="center"
+        android:text="Курсы валют"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:onClick="Click1"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp"
+        android:background="#C92B5AE8"
+        android:gravity="center"
+        android:text="Войти"
+        android:textSize="30dp"
+        android:onClick="Click2"/>
+
+    <ImageView
+        android:id="@+id/values"
+        android:layout_width="95dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="370dp"
+        android:adjustViewBounds="false"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FA0C0C"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/kursvalues" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bank"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="320dp"
+        android:elevation = "2dp" />
+    <TextView
+        android:id="@+id/eur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euro 90,4"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:elevation = "2dp" />
+    <TextView
+        android:id="@+id/usd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD 75,8"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:elevation = "2dp" />
+
+
+</RelativeLayout>
